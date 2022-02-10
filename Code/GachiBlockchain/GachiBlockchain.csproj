@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}</ProjectGuid>
+    <ProjectGuid>{9635860B-0E44-4EE4-9F54-2106DCA64B5F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>GachiBlockchain</RootNamespace>
     <AssemblyName>GachiBlockchain</AssemblyName>

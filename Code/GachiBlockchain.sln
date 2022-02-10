@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.32112.339
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GachiBlockchain", "GachiBlockchain.csproj", "{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GachiBlockchain", "GachiBlockchain\GachiBlockchain.csproj", "{9635860B-0E44-4EE4-9F54-2106DCA64B5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{AE65D214-2BB7-47A5-82BF-68E4CDDD9F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +13,19 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CAB6A46-00BE-48DA-B531-74C7EB71C37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9635860B-0E44-4EE4-9F54-2106DCA64B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9635860B-0E44-4EE4-9F54-2106DCA64B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9635860B-0E44-4EE4-9F54-2106DCA64B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9635860B-0E44-4EE4-9F54-2106DCA64B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE65D214-2BB7-47A5-82BF-68E4CDDD9F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE65D214-2BB7-47A5-82BF-68E4CDDD9F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE65D214-2BB7-47A5-82BF-68E4CDDD9F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE65D214-2BB7-47A5-82BF-68E4CDDD9F29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A5C9C229-A6A5-4F67-BA8A-A6F8F6FE64F4}
+		SolutionGuid = {D8A4CC4F-B735-4254-BA0E-C5A2789CAC4C}
 	EndGlobalSection
 EndGlobal

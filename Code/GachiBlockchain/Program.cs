@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GachiBlockchain
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -24,15 +24,14 @@ namespace GachiBlockchain
             else Console.WriteLine("Blockchain verified ERROR!");
 
             Console.ReadKey();
-
         }
 
-        static bool VerificationBC(List<Chain> blockchain)
+        public static bool VerificationBC(List<Chain> blockchain)
         {
             for (int i = 1; i < blockchain.Count; i++)
             {
                 if (blockchain[i].hash != blockchain[i].GetHash()) return false;
-                if (blockchain[i].prevhash != blockchain[i-1].hash) return false;
+                if (blockchain[i].prevhash != blockchain[i - 1].hash) return false;
             }
             return true;
         }
