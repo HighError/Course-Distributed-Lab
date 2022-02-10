@@ -9,7 +9,7 @@
 - [Дрозда Георгій](https://github.com/Doctor1202) [L1MD5_285]
 
 ### Технічне завдання
-[Переглянути]()
+[Переглянути](https://github.com/HighError/Course-Distributed-Lab/tree/main/TR)
 
 ### Базовий код
 [Переглянути](https://github.com/HighError/Course-Distributed-Lab/tree/main/Code)
