@@ -12,4 +12,4 @@
 [Переглянути]()
 
 ### Базовий код
-[Переглянути]()
+[Переглянути](https://github.com/HighError/Course-Distributed-Lab/tree/main/Code)
